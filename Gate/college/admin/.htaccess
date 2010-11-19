@@ -1,0 +1,7 @@
+Authname "Administration"
+AuthUserFile "C:\wamp\www\college\admin\.htpasswd"
+AuthGroupFile /dev/null
+AuthType Basic
+<limit GET POST>
+require valid-user
+</limit> 

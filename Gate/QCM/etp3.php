@@ -4,7 +4,7 @@ include("sqlconnect.php");
 
 $code = $_POST['code'];
 $chnum = $_POST['chnum'];
-$qn = $_POST['qnum'];
+$qn = $_POST['qnum']; //addslashes ?
 
 $nv = 0;
 $nf = 0;

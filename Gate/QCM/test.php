@@ -1,7 +1,7 @@
 <?php
 
 echo '<br><form method="post" action="act1.php" name="form1"><center>';
-for ($i=1;$i<=20;$i++) {
+for ($i=1;$i<=$nbq;$i++) {
 
 echo '<br><b><font color="navy">Question
 '.$i.'</font></b>

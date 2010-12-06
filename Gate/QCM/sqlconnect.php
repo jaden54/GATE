@@ -1,1 +1,0 @@
-<?phpfunction connect() {mysql_connect("localhost","root","root");mysql_select_db("clg-eluard-evry1"); }function disconnect(){ mysql_close(); }?>

@@ -1,0 +1,32 @@
+#errPHP {padding:20px;font-size:24pt;text-align:center;background-color:red;width:100%;font-weight:bold}
+body {
+font-family: Times New Roman,Times,serif; 
+background-image: url(images/bg.jpg);
+}
+div {font-size:12pt}
+p {font-size:12pt;text-align:justify}
+
+h2 {
+font-size:12pt;
+text-align:justify;
+text-align: center; 
+font-weight: bold; 
+color: rgb(44, 97, 169);
+}
+
+#titre{
+color:navy;
+font-weight:bold;
+}
+
+#header{
+font-size:12pt;
+text-align:justify;
+font-weight: bold;
+color: rgb(44, 97, 169);
+}
+
+#liste{
+
+list-style-position:outside;
+}

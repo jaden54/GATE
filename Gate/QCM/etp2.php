@@ -24,7 +24,7 @@ echo '<center><font color="darkgreen">La question a bien été enregistrée ! Maint
 }
 
 
-echo '<br><form method="post" action="etp3.php" name="etp2">';
+echo '<br><form method="post" action="../qcm/etp3.php" name="etp2">';
 echo '<table
 style="text-align: left; width: 750px; margin-left: auto; margin-right: auto;"
 border="2" cellpadding="0" cellspacing="0">

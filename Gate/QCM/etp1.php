@@ -6,7 +6,11 @@ header('Location : nolog.php');
 exit();
 }
 
+
+
 include("sqlconnect.php");
+
+/*
 
 $i = 1;
 
@@ -27,28 +31,32 @@ if ( isset($_Get['cd']) AND isset($_POST['loc']) ) {
 }
 
 disconnect();
-
+*/
 //$code=$toto;
 
-$code=1;
+$code=$_POST['code'];
 
+echo '<a href="accueil.php"> Revenir à l\'écran précédent </a>';
 ?>
 
 
 
 
-<br>
+
+
+<br><br><br>
 <div id="titre"> Ajouter un QCM </div>
 <br>
 <h2> Etape 1 </h2>
-<form method="post" action="etp2.php" name="etp1"><center>
+<form method="post" action="../qcm/etp2.php" name="etp1"><center>
 
 <table style="border-collapse:collapse;border:0px solid #FFFFFF">
   <tr><td align="right">Question : </td><td><input value="" size="25" name="qtext"></td></tr>
    <tr><td align="right">Numéro de la question  : </td><td> <input size="25" name="qnum"></td></tr>
   <tr><td align="right">Nombre de points  : </td><td> <input size="25" name="pt"></td></tr>
   <tr><td align="right">Nombre de Choix  : </td><td> <input size="25" name="chnum"></td></tr>
-  <tr><td><input type="hidden" value="<?echo $toto; ?>" ></td><td>&nbsp;</td></tr>
+  <tr><td><input type="hidden" name="code" value="<?echo $code; ?>" ></td><td>&nbsp;</td></tr>
+  <tr><td><input type="hidden" name="page" value="" ></td><td>&nbsp;</td></tr>
   <tr><td colspan="2" align="center"><input type="submit" value="Etape Suivante" /></td></tr>
 </table>
 
